@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Card, CardContent } from './ui/card';
 import { Target, Lightbulb, Rocket, Shield } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';

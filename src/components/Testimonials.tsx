@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Card, CardContent } from './ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar';
 import { Star } from 'lucide-react';
@@ -17,13 +17,6 @@ export function Testimonials() {
       role: "Product Manager, AFEX",
       avatar: "MC",
       content: "Working with Seun on AFEXPay was a game-changer. His deep understanding of payment settlement systems and attention to security made our platform rock-solid.",
-      rating: 5
-    },
-    {
-      name: "Pastor David Williams",
-      role: "IT Director",
-      avatar: "DW", 
-      content: "The church attendance API system Seun built for us has transformed how we manage our congregation data. It's intuitive, fast, and incredibly reliable.",
       rating: 5
     },
     {

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
@@ -46,7 +46,7 @@ export function Contact() {
     {
       icon: MapPin,
       label: "Location",
-      value: "Lagos, Nigeria",
+      value: "Abuja, Nigeria",
       action: null
     }
   ];

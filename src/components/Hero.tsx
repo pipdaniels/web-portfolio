@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { ArrowDown, Github, Linkedin, Twitter } from 'lucide-react';
 import { Button } from './ui/button';
 import { ImageWithFallback } from './figma/ImageWithFallback';
@@ -49,7 +49,7 @@ export function Hero() {
               transition={{ delay: 0.6, duration: 0.8 }}
               className="text-lg text-muted-foreground mb-8 max-w-2xl"
             >
-              Crafting robust, scalable backend systems with expertise in Golang, Python, and PHP. 
+              Crafting robust, AI Powered scalable backend systems with expertise in Golang, Python, and PHP. 
               Building the infrastructure that powers modern applications and payment systems.
             </motion.p>
             
@@ -59,12 +59,16 @@ export function Hero() {
               transition={{ delay: 0.8, duration: 0.8 }}
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
             >
-              <Button size="lg" className="text-lg px-8">
-                View My Work
-              </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8">
-                Download CV
-              </Button>
+              <a href='https://github.com/pipdaniels' target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="text-lg px-8">
+                  View My Work
+                </Button>
+              </a>
+              <a href='#'>
+                <Button size="lg" variant="outline" className="text-lg px-8">
+                  Download CV
+                </Button>
+              </a>
             </motion.div>
             
             {/* Social Links */}
@@ -79,7 +83,6 @@ export function Hero() {
                   key={index}
                   whileHover={{ scale: 1.1, y: -2 }}
                   whileTap={{ scale: 0.95 }}
-                  href="#"
                   className="w-12 h-12 bg-muted rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-200"
                 >
                   <Icon className="w-5 h-5" />

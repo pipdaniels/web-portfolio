@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Github, Linkedin, Twitter, Mail, Phone, MapPin, Code } from 'lucide-react';
 import { Separator } from './ui/separator';
 
@@ -122,16 +122,16 @@ export function Footer() {
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-muted-foreground" />
                 <a
-                  href="mailto:seun.adeniyi@example.com"
+                  href="mailto:deluxehay1@gmail.com"
                   className="text-muted-foreground hover:text-foreground transition-colors text-sm"
                 >
-                  seun.adeniyi@example.com
+                  seun@adeniyi.com
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-muted-foreground" />
                 <a
-                  href="tel:+234XXXXXXXXX"
+                  href="tel:+2348155457497"
                   className="text-muted-foreground hover:text-foreground transition-colors text-sm"
                 >
                   +234 8055457495
@@ -140,7 +140,7 @@ export function Footer() {
               <div className="flex items-center gap-3">
                 <MapPin className="w-4 h-4 text-muted-foreground" />
                 <span className="text-muted-foreground text-sm">
-                  Lagos, Nigeria
+                  Abuja, Nigeria
                 </span>
               </div>
             </div>

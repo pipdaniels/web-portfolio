@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { MessageCircle, Mail, ArrowUp } from 'lucide-react';
 import { Button } from './ui/button';
 import { useState, useEffect } from 'react';
