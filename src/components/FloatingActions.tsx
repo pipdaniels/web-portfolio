@@ -24,7 +24,7 @@ export function FloatingActions() {
   };
 
   const handleEmail = () => {
-    window.open('mailto:seun.adeniyi@example.com?subject=Project Inquiry&body=Hi Seun,%0A%0AI found your portfolio and would like to discuss a potential project opportunity.', '_blank');
+    window.open('mailto:deluxehay1@gmail.com?subject=Project Inquiry&body=Hi Seun,%0A%0AI found your portfolio and would like to discuss a potential project opportunity.', '_blank');
   };
 
   return (

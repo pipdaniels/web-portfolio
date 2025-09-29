@@ -22,7 +22,7 @@ export function Testimonials() {
     {
       name: "Victoria Daniel",
       role: "Founder, Sipstory",
-      avatar: "JR",
+      avatar: "VD",
       content: "Seun developed the AI-powered backend for our social media management platform. His innovative approach and technical excellence exceeded all our expectations.",
       rating: 5
     },
