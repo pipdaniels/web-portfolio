@@ -11,7 +11,7 @@
 			<div class="space-y-6">
 				<div class="overflow-hidden bg-[#2b2d31] p-4 md:p-6">
 					<h1 class="font-display text-[clamp(3.5rem,14vw,11rem)] leading-[0.88] tracking-[-0.08em] text-[#f7f7f5]">
-						Seun<br /> Adeniyi
+						Seun<br /> DANIEL
 					</h1>
 				</div>
 				<div class="h-1.5 w-full bg-[#ff6b4a]" aria-hidden="true"></div>

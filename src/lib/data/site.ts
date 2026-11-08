@@ -1,5 +1,5 @@
 export const site = {
-	name: 'Seun Adeniyi',
+	name: 'Seun DANIEL',
 	title: 'Full Stack Developer & System Architect',
 	heroBody:
 		'Crafting robust, AI Powered scalable technology systems with expertise in Golang, Python, and PHP. Building the infrastructure that powers modern applications and payment systems.',
