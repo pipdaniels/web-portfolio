@@ -7,7 +7,7 @@
 
 <header class="sticky top-0 z-50 border-b border-[#d8dadd] bg-[#f7f7f5]/95 backdrop-blur-sm">
 	<div class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 md:px-8">
-		<a href="#home" class="font-display text-2xl leading-none text-[#2b2d31]" aria-label="Seun Adeniyi home">Seun Adeniyi</a>
+		<a href="#home" class="font-display text-2xl leading-none text-[#2b2d31]" aria-label="Seun DANIEL home">Seun DANIEL</a>
 
 		<nav class="hidden items-center gap-6 md:flex" aria-label="Main navigation">
 			{#each site.navItems as item}

@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>SEUN ADENIYI | Golang Developer</title>
+	<title>SEUN DANIEL | Golang Developer</title>
 	<meta
 		name="description"
 		content="Full Stack Developer and System Architect building robust, AI-powered backend systems, payment infrastructure, and scalable architectures."

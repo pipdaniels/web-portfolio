@@ -56,7 +56,7 @@
 		</div>
 
 		<div class="mt-10 border-t border-[#d8dadd] pt-6 text-sm text-[#5a6068]">
-			© {new Date().getFullYear()} Seun Adeniyi. All rights reserved.
+			© {new Date().getFullYear()} Seun DANIEL. All rights reserved.
 		</div>
 	</div>
 </footer>
