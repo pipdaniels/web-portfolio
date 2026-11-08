@@ -2,7 +2,7 @@ export const site = {
 	name: 'Seun Adeniyi',
 	title: 'Full Stack Developer & System Architect',
 	heroBody:
-		'Crafting robust, AI Powered scalable backend systems with expertise in Golang, Python, and PHP. Building the infrastructure that powers modern applications and payment systems.',
+		'Crafting robust, AI Powered scalable technology systems with expertise in Golang, Python, and PHP. Building the infrastructure that powers modern applications and payment systems.',
 	navItems: [
 		{ label: 'Home', href: '#home' },
 		{ label: 'About', href: '#about' },

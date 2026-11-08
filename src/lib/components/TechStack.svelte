@@ -26,7 +26,7 @@
 		<div class="mb-10 max-w-2xl">
 			<h2 class="font-display text-[clamp(2.5rem,8vw,6rem)] leading-[0.9] tracking-[-0.08em] text-[#2b2d31]">Technology Stack</h2>
 			<p class="mt-4 text-lg leading-relaxed text-[#5a6068]">
-				A comprehensive toolkit for building robust, scalable backend systems and modern web applications
+				A comprehensive toolkit for building robust, scalable systems and modern web applications
 			</p>
 		</div>
 

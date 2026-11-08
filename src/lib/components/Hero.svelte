@@ -2,7 +2,7 @@
 	import Button from '#lib/components/ui/button.svelte';
 	import { site } from '#lib/data/site';
 	import { links } from '#lib/data/links';
-	import { ArrowDownRight } from '@lucide/svelte';
+	import { ArrowDownRight, GitBranchPlusIcon } from '@lucide/svelte';
 </script>
 
 <section id="home" class="scroll-mt-24">
@@ -29,11 +29,11 @@
 					</p>
 				</div>
 				<div class="flex flex-wrap gap-3">
-					<a href="#projects">
-						<Button class="bg-[#ff6b4a] text-[#2b2d31] hover:bg-[#ea5d3d]">View My Work</Button>
-					</a>
-					<a href={links.cv} download>
-						<Button variant="outline">Download CV</Button>
+                    <a href={links.github} target="_blank" rel="noreferrer" class="flex items-center gap-2 rounded-md bg-[#ff6b4a] px-4 py-2 text-sm font-semibold text-[#f7f7f5] transition-colors duration-200 hover:bg-[#ea5d3d]">
+                        <GitBranchPlusIcon size={32} class="mr-2" />Github 
+                    </a>
+					<a href=#projects>
+						<Button  variant="outline">Some Projects</Button>
 					</a>
 				</div>
 			</div>
