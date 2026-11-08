@@ -2,6 +2,7 @@
 	import Header from '#lib/components/Header.svelte';
 	import Hero from '#lib/components/Hero.svelte';
 	import TechStack from '#lib/components/TechStack.svelte';
+	import Projects from '#lib/components/Projects.svelte';
 	import Vision from '#lib/components/Vision.svelte';
 	import StatsCounter from '#lib/components/StatsCounter.svelte';
 	import Testimonials from '#lib/components/Testimonials.svelte';
@@ -16,6 +17,7 @@
 	<main>
 		<Hero />
 		<TechStack />
+		<Projects />
 		<Vision />
 		<StatsCounter />
 		<Testimonials />

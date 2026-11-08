@@ -17,7 +17,7 @@
 				<div class="h-1.5 w-full bg-[#ff6b4a]" aria-hidden="true"></div>
 				<div class="space-y-3">
 					<p class="font-condensed text-3xl uppercase tracking-[0.12em] text-[#2b2d31] md:text-4xl">
-						Senior Backend Developer &amp; System Architect
+						Full Stack Developer &amp; System Architect
 					</p>
 				</div>
 			</div>

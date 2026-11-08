@@ -13,8 +13,8 @@
 			</div>
 			<div class="flex flex-wrap gap-2">
 				<Badge variant="secondary" class="flex items-center gap-2">
-					<Circle class="fill-current" size={8} />
-					System Online
+					<span class="status-dot" aria-hidden="true"></span>
+					<span>System Online</span>
 				</Badge>
 				<Badge variant="outline">Secure &amp; Scalable</Badge>
 			</div>

@@ -1,12 +1,12 @@
 export const stack = [
 	{
 		category: 'Backend Languages',
-		items: ['Golang', 'Python', 'PHP'],
+		items: ['Golang', 'TypeCript', 'Python', 'PHP'],
 		icon: 'Terminal'
 	},
 	{
 		category: 'Frontend Technologies',
-		items: ['JavaScript', 'TypeScript'],
+		items: ['JavaScript', 'HTML', 'CSS', 'TypeScript'],
 		icon: 'Palette'
 	},
 	{

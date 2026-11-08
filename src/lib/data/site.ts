@@ -1,6 +1,6 @@
 export const site = {
 	name: 'Seun Adeniyi',
-	title: 'Senior Backend Developer & System Architect',
+	title: 'Full Stack Developer & System Architect',
 	heroBody:
 		'Crafting robust, AI Powered scalable backend systems with expertise in Golang, Python, and PHP. Building the infrastructure that powers modern applications and payment systems.',
 	navItems: [
@@ -36,9 +36,10 @@ export const site = {
 		}
 	],
 	services: [
-		'Backend API Development',
+        'AI Agents & Automation',
+        'Full Stack App Developement',
+		'API Development',
 		'Payment System Integration',
-		'Database Architecture',
 		'System Optimization',
 		'Technical Consulting',
 		'Code Review & Auditing'

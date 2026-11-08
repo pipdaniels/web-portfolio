@@ -10,7 +10,7 @@
 			<div>
 				<p class="font-display text-3xl uppercase tracking-[-0.08em] text-[#2b2d31]">{site.name}</p>
 				<p class="mt-4 max-w-xs text-sm leading-relaxed text-[#5a6068]">
-					Senior Backend Developer specializing in scalable systems, payment gateways, and robust API architectures.
+					Full Stack Developer specializing in scalable systems, payment gateways, and robust API architectures.
 				</p>
 			</div>
 
@@ -42,13 +42,13 @@
 					<li>Abuja, Nigeria</li>
 				</ul>
 				<div class="mt-5 flex gap-3">
-					<a href={links.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn" class="flex h-10 w-10 items-center justify-center border border-[#d8dadd] text-[#2b2d31] hover:bg-[#2b2d31] hover:text-[#f7f7f5]">
+					<a href={links.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn" class="footer-social flex h-10 w-10 items-center justify-center border border-[#d8dadd] text-[#2b2d31] transition-colors duration-200 hover:bg-[#ff6b4a] hover:text-[#f7f7f5]">
 						<BriefcaseBusiness size={16} />
 					</a>
-					<a href={links.github} target="_blank" rel="noreferrer" aria-label="GitHub" class="flex h-10 w-10 items-center justify-center border border-[#d8dadd] text-[#2b2d31] hover:bg-[#2b2d31] hover:text-[#f7f7f5]">
+					<a href={links.github} target="_blank" rel="noreferrer" aria-label="GitHub" class="footer-social flex h-10 w-10 items-center justify-center border border-[#d8dadd] text-[#2b2d31] transition-colors duration-200 hover:bg-[#ff6b4a] hover:text-[#f7f7f5]">
 						<GitBranch size={16} />
 					</a>
-					<a href={links.twitter} target="_blank" rel="noreferrer" aria-label="Twitter" class="flex h-10 w-10 items-center justify-center border border-[#d8dadd] text-[#2b2d31] hover:bg-[#2b2d31] hover:text-[#f7f7f5]">
+					<a href={links.twitter} target="_blank" rel="noreferrer" aria-label="Twitter" class="footer-social flex h-10 w-10 items-center justify-center border border-[#d8dadd] text-[#2b2d31] transition-colors duration-200 hover:bg-[#ff6b4a] hover:text-[#f7f7f5]">
 						<X size={16} />
 					</a>
 				</div>
@@ -56,7 +56,7 @@
 		</div>
 
 		<div class="mt-10 border-t border-[#d8dadd] pt-6 text-sm text-[#5a6068]">
-			© 2026 Seun Adeniyi. All rights reserved.
+			© {new Date().getFullYear()} Seun Adeniyi. All rights reserved.
 		</div>
 	</div>
 </footer>
