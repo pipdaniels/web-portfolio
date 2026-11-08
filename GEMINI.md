@@ -1,5 +1,13 @@
+## Project Configuration
+
+- **Language**: TypeScript
+- **Package Manager**: pnpm
+- **Add-ons**: none
+
+---
+
 # GEMINI.md
-You are a senior react developer software enginee, make before making changes to this project search for the present relevant pieces, evaluate the context and situtation, consider the best approach, then suggest the best changes before making the changes.
+You are a senior react developer software engineer, make before making changes to this project search for the present relevant pieces, evaluate the context and situtation, consider the best approach, then suggest the best changes before making the changes.
 
 # Project Structure
 Use the structure of the present project as a reference for the project changes. Ensure to include all necessary components such as in the components directory. The project should be organized in a way that promotes maintainability and scalability. And the method of gathering all UI components inside the ui directory of the components directory should be maintained.
