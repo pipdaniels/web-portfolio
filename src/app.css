@@ -1,0 +1,86 @@
+@import 'tailwindcss';
+
+:root {
+	--background: #f7f7f5;
+	--foreground: #2b2d31;
+	--muted-foreground: #5a6068;
+	--primary: #ff6b4a;
+	--primary-foreground: #2b2d31;
+	--border: #d8dadd;
+	--muted: #d8dadd;
+	--card: #f7f7f5;
+}
+
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/anton/400.css';
+@import '@fontsource/barlow-condensed/600.css';
+@import '@fontsource/barlow-condensed/700.css';
+@import '@fontsource/jetbrains-mono/400.css';
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	background: var(--background);
+	color: var(--foreground);
+	font-family: 'Inter', sans-serif;
+	line-height: 1.6;
+	text-rendering: optimizeLegibility;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.font-display {
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: -0.08em;
+}
+
+.font-condensed {
+	font-family: 'Barlow Condensed', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.font-mono {
+	font-family: 'JetBrains Mono', monospace;
+}
+
+section {
+	scroll-margin-top: 6rem;
+}
+
+button,
+input,
+textarea {
+	font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
